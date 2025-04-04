@@ -32,4 +32,4 @@ def pipeline_calcular_kpi_de_vendas_consolidado(pasta: str, formato_de_saida: li
     data_frame_calculado = calcular_kpi_de_total_de_vendas(data_frame)
     carregar_dados(data_frame_calculado, formato_de_saida)
 
-# uma funcao que da load em csv ou parquet
+# uma funcao que da load em csv ou parquet 
