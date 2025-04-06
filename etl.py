@@ -17,7 +17,7 @@ def calcular_kpi_de_total_de_vendas(df: pd.DataFrame) -> pd.DataFrame:
 
 def carregar_dados(df: pd.DataFrame, format_saida: list):
     """
-    parametro que vai ser ou "csv" ou "parquet" ou "os dois"
+    parametro que vai ser ou "csv" ou "parquet"  ou "os dois"
     """
     for formato in format_saida:
         if formato == 'csv':
