@@ -10,7 +10,7 @@ def extrair_dados_e_consolidar(pasta: str) -> pd.DataFrame:
     return df_total
 
 # uma funcao que transforma
-
+ 
 def calcular_kpi_de_total_de_vendas(df: pd.DataFrame) -> pd.DataFrame:
     df["Total"] = df["Quantidade"] * df["Venda"]
     return df
